@@ -22,7 +22,7 @@ namespace AllMe
 
             string pattern = @"(>>\d+)";
 
-            string replacement = "$1(You)";
+            string replacement = "$1 (You)";
 
             string v = Regex.Replace(text, pattern, replacement);
             string newText = v;
